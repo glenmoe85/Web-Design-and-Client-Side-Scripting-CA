@@ -15,7 +15,7 @@
 			</div>
 			<div class="topnav" id="Navbar">
 				<a class="active" href="#home">Home</a>
-				<a href="kerry.html">Kerry</a>
+				<a href="#news">News</a>
 				<a href="#contact">Contact</a>
 				<a href="#about">About</a>
 				<a href="javascript:void(0);" class="icon" onclick="resNavBar()"><i class="fa fa-bars"></i></a>
