@@ -6,3 +6,7 @@ function resNavBar() {
     x.className = "topnav";
   }
 }
+
+function formSubmit() {
+	document.forms['form_name'].reset();
+}
