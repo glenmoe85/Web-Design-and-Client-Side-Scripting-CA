@@ -15,9 +15,11 @@ btn.onclick = function() {
 }
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
+window.addEventListener("click", function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+});
 
 
 
@@ -38,9 +40,11 @@ btn.onclick = function() {
 }
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal1.style.display = "none";
-}
+window.addEventListener("click", function(event) {
+  if (event.target == modal1) {
+    modal1.style.display = "none";
+  }
+});
 
 
 
@@ -59,9 +63,11 @@ btn.onclick = function() {
 }
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal2.style.display = "none";
-}
+window.addEventListener("click", function(event) {
+  if (event.target == modal2) {
+    modal2.style.display = "none";
+  }
+});
 
 
 
