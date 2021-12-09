@@ -4,14 +4,15 @@
 <title>Kerry Tourism</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="css/style_k.css"/>
-<link href="/twitter-bootstrap/twitter-bootstrap-v2/docs/assets/css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="style_k.css"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="script_k.js">
 </head>
 <body>
 
 <script>
-      alert("Cead Mile Failte! Thank you for your interest in Kerry. This page is sponsored by Kerry County Council and Foxy John's Pub")
+      alert("Cead Mile Failte! Thank you for your interest in Kerry. This page is sponsored by Kerry County Council and Parknasilla Resort")
     </script>
 <div class="container-fluid">
 		<div class="row">
@@ -19,61 +20,16 @@
 			   <h1 class="reveal">Kerry Welcomes You Naturally</h1>
 			</div>
 			<div class="col-lg-2 logo">
-		       <img src="images/kerry_img/waw.jpg" class="logo" width=140 height=70 >
+		       <img src="images_k/waw.jpg" class="logo" width=140 height=70 >
 			</div>
 		</div>
 			
 			<div class="row">
 			 <div class="col-lg-12 event">
-			   <h3 id="event-one"> We have so much going on!     Explore some of the latest events happening in Kerry</h3>
+			   <h3 id="event-one"> We have so much going on!   Explore some of the latest events happening in Kerry</h3>
 			 </div>
 			</div>
 			
-<div class="row">
- <div class="col-lg-2">
-  <button type="button" class="collapsible">Surf</button>
-    <div class="content">
-       <p>Pro-Surf Competition for under-18s. Register before Dec 30th!</p>
-     </div> 
- </div>
-
-<div class="col-lg-2">
-  <button type="button" class="collapsible">Trail Running</button>
- <div class="content">
-     <p>Carrauntoohil 15km Trail - Starts Jan 10th at 10AM. Registration closes on Dec 15th.</p>
- </div>
-</div>
-
-<div class="col-lg-2">
-   <button type="button" class="collapsible">Writing</button>
-  <div class="content">
-      <p>Creative writing classes in Dingle conducted by Marina Carr - call 089 234 5644 to book.</p>
-  </div>
-</div>
-
-<div class="col-lg-2">
-  <button type="button" class="collapsible">Art</button>
-  <div class="content">
-    <p>Children's art competition for ages 6-11. Closing-date for submissions noon on Dec 20th!
-  </div>
-</div>
-
-<div class="col-lg-2">
- <button type="button" class="collapsible">Poetry</button>
- <div class="content">
-    <p>The spoken word at Foxy Johns in Dingle every Thursday from 5PM.</p>
- </div>
-</div>
-
-<div class="col-lg-2">
- <button type="button" class="collapsible">Win!!!</button>
-  <div class="content">
-     <h3>Competition Time!!</h3>
-       <p>Answer the question; Who is the actor with the initials, 'M F' that hails from Kerry?</p>
-       <p>Text your answer plus 'win' to 45943 for a two-night stay in The Europe Hotel and Resort</p>
-  </div>
-  </div>
-</div>
 	  
 <div class="row">
 	       <div class="col-lg-7 slides">
@@ -89,13 +45,13 @@
     <!-- Wrapper for carousel items -->
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="images/kerry_img/surf.jpg" class="d-block w-100" alt="Slide 1">
+            <img src="images_k/surf.jpg" class="d-block w-100" alt="Slide 1">
         </div>
         <div class="carousel-item">
-            <img src="images/kerry_img/trek.jpg" class="d-block w-100" alt="Slide 2">
+            <img src="images_k/trek.jpg" class="d-block w-100" alt="Slide 2">
         </div>
         <div class="carousel-item">
-            <img src="images/kerry_img/inch.jpg" class="d-block w-100" alt="Slide 3">
+            <img src="images_k/inch.jpg" class="d-block w-100" alt="Slide 3">
         </div>
     </div>
 
@@ -136,64 +92,76 @@
   <div class="col-lg-4">
  <!-- Trigger/Open The Modal -->
 
-      <button type="button" button id="myBtn" class="btn  btn-outline-success" data-toggle="modal" data-target="#Modal4">
-            <image type="image" src="images/kerry_img/smile.jpg"  style="width:330px;height:320px;margin-left:10px;margin-bottom:10px;margin-top:10px;margin-right:10px;" />   
+      <button type="button" button id="myBtn" class="btn  btn-outline-success" data-toggle="modal" data-target="#myModal">
+            <image type="image" src="images_k/smile.jpg"  style="width:330px;height:320px;margin-left:10px;margin-bottom:10px;margin-top:10px;margin-right:10px;" />   
       </button>
     
 <!-- The Modal -->
-<div id="myModal" class="modal">
+<div id="myModal" class="modal" role="dialog">
+    
 
   <!-- Modal content -->
-  <div class="modal-content">
-    <span class="close">&times;</span>
+      <div class="modal-content">
+         <span class="close">&times;</span>
+		
     <p>Experience the breathtaking scenery around the Dingle Peninsula via car, bicycle or on foot. We are sure you will be mesmerized by its outstanding beauty.
 	The Skellig Islands invite intrigue as they pertutrude sharply from the bounding sea. So awesome are the Skelligs that they were the backdrop and filming location for the blockbuster film, 
 	Starwars Episode VII. It is claimed that the first monk on the Skellig Michael Islands was Saint Finnian of Clonard. Considered by by many as a father of Irish monasticism, Saint Finnian
 	who it is also said almost all of the birds of Ireland gathered soon after his birth at the end of 5th Century as a sign of the holy life he would lead used much of his time preaching in Wales 
 	until he later returned to his homeland and found churches most noticeably at Great Skellig which is the larger among Skellig Michael Islands.</p>
     <p>With Skellig Michael Cruises one can view the Skelligs before landing and exploring. Book by calling Paul Devane on 087 6178114. Enjoy!!</p>
-  <script src="js/script_k.js"></script>
-  </div>
-</div> 
+   
+ <script src="script_k.js"></script>
+</div>
 
 </div>
+</div>
+  
+
 <div class="col-lg-4">
 
-      <button type="button" button id="myBtn1" class="btn  btn-outline-success" data-toggle="modal" data-target="#Modal4">
-            <image type="image" src="images/kerry_img/sport.jpg"  style="width:330px;height:320px;margin-left:10px;margin-bottom:10px;margin-top:10px;margin-right:10px;" />   
+      <button type="button" button id="btn1" class="btn  btn-outline-success" data-toggle="modal" data-target="#modal1">
+            <image type="image" src="images_k/sport.jpg"  style="width:330px;height:320px;margin-left:10px;margin-bottom:10px;margin-top:10px;margin-right:10px;" />   
       </button>
   <!-- The Modal -->
-<div id="myModal" class="modal">
+  <div id="modal1" class="modal"  role="dialog">
+    
 
   <!-- Modal content -->
   <div class="modal-content">
     <span class="close">&times;</span>
     <p>There is an abundant array of water sporting activities available for all ages and expereince levels. If you are a seasoned surfer you will appreciate our breaks on Inch Beach or make your way over to  Castlegregory where you will have seven miles of pristine sandy beach  to roam and some consistent breaks to surf.</p>
-    <p>If you are a beginner, please book with Offshore Surf School on 087 2946519 for Inch Beach.</p> 
+      <p>If you are a beginner, please book with Offshore Surf School on 087 2946519 for Inch Beach.</p> 
+ 
   </div>
+  
  </div> 
 </div> 
 
 
 <div class="col-lg-4">
 
-<button type="button" button id="myBtn2" class="btn  btn-outline-success" data-toggle="modal" data-target="#Modal4">
-            <image type="image" src="images/kerry_img/shark.jpg"  style="width:330px;height:320px;margin-left:10px;margin-bottom:10px;margin-top:10px;margin-right:10px;" />   
+<button type="button" button id="btn2" class="btn  btn-outline-success" data-toggle="modal" data-target="#modal2">
+            <image type="image" src="images_k/shark.jpg"  style="width:330px;height:320px;margin-left:10px;margin-bottom:10px;margin-top:10px;margin-right:10px;" />   
       </button>
 	 <!-- The Modal -->
-<div id="myModal3" class="modal">
+<div id="modal2" class="modal">
 
   <!-- Modal content -->
-  <div class="modal-content">
+  
+   <div class="modal-content">
     <span class="close">&times;</span>
  <p>Fáilte go Mara Beo an Daingean!! Oceanworld Aquarium Dingle is a great family day out in Kerry, please consider booking in advance.
 Oceanworld Aquarium is located in Dingle, County Kerry and is Ireland’s largest aquarium. Our Aquarium hosts a collection of magnificent Sand Tiger Sharks, Gentoo Penguins, Asian Short-Clawed Otters and includes an abundance of different fish species.
 Experience this enchanting underwater world and learn the wonders of the ocean.</p>
 <p>Book on Phone / Fón: +353 (0)66 91 52 111 or Email Email / R Phost: info@dingle-oceanworld.ie</p>
-  </div>
+  
+  
 </div> 
-</div> 
+</div>
 	</div>
+
+
 
 <div class="row">
   <div class="col-lg-5 sponsors">
@@ -203,13 +171,13 @@ Experience this enchanting underwater world and learn the wonders of the ocean.<
 	
 	<div class="col-lg-2 park">
 	  <a href="https://parknasillaresort.com/" target="_blank">
-	    <img src="images/kerry_img/park.jpg" height="150px" width="200px">
+	    <img src="images_k/park.jpg" height="150px" width="200px">
 	</a>
     </div>
 	
 	<div class="col-lg-2 louis">
 	  <a href="https://louismulcahy.com/" target="_blank">
-		<img src="images/kerry_img/louis.jpg" height="150px" width="200px" >
+		<img src="images_k/louis.jpg" id="louis" height="150px" width="250px" >
 	</a>
 	</div>
 </div>
@@ -229,7 +197,8 @@ Experience this enchanting underwater world and learn the wonders of the ocean.<
   </div>
 </div>
 	
-<script src="script_k.js"></script>
+<script script type="text/javascript" src="script_k.js"></script>
+
 
 </body>
 
