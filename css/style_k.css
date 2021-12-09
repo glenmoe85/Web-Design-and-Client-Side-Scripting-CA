@@ -3,7 +3,24 @@ body {
 background-size:cover;
 }
 
-
+#sc{
+	color:white;
+	font-family:Brush Script MT;
+	font-size:50px; 
+	margin-left:30px;
+}
+.hide {
+  display: none;
+}
+    
+.myDIV:hover + .hide {
+  display: block;
+  color: #f6e27a;
+}
+.rot{
+	text-align:left;
+	
+}
 /*Header background*/
 .header{
 	background-color:white;
@@ -37,7 +54,7 @@ background-size:cover;
 	vertical-align:center;
 }
 
-
+/*collapsable text box - drops down from button */
 .collapsible {
 	 font-family:Goudy Old Style;
   background-color: white;
@@ -181,12 +198,18 @@ color:white;
 	margin-top:30px;
 	margin-left:20px;
 }
+
+
 /*Parknasilla image*/	
 .park{
 	margin-top:20px;
 	margin-bottom:20px;
 	margin-left:40px;
 	text-align:center;
+}
+
+.park:hover {
+  background-color: #6a5acd;
 }
 /*Louis Mulcahy image*/
 .louis{
@@ -196,6 +219,11 @@ color:white;
 	margin-left:40px;
 	
 }
+
+.louis:hover {
+  background-color:#ffa500 ;
+}
+	
 
 /*footer banner design*/
 .footer{
