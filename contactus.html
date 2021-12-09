@@ -27,24 +27,24 @@
 				</p>
 			</div>
 			<div class="form">
-  <form >  
+  <form name="contactForm">  
    <p> 
       <label for = "firstname">First Name: </label> 
-      <input type = "text" id = "firstname" placeholder="John" required><br /> 
+      <input type = "text" name="firstname" placeholder="John" required><br /> 
    
       <label for = "lastname">Last Name: </label> 
-      <input type = "text" id = "lastname" placeholder="Doe" required><br /> 
+      <input type = "text" name="lastname" placeholder="Doe" required><br /> 
    
       <label for = "email">Email: </label> 
-      <input type = "text" placeholder="john@email.com" id = "email" required><br> 
+      <input type = "text" placeholder="john@email.com" name="email" required><br> 
 	  <label for = "phone">Phone: </label> 
-      <input type = "tel" id = "phone" placeholder="123456789" ><br> 
+      <input type = "tel" name="phone" placeholder="123456789" ><br> 
    <label for = "business">Business: </label>
-<input type = "text" id = "business" placeholder="Optional"><br>   
+<input type = "text" name="business" placeholder="Optional"><br>   
 <label for = "comment">Query: </label>
-   <textarea id="comment" placeholder="Enter text here..." rows="10" cols="50"></textarea><br/>
+   <textarea id="comment" name="comment" placeholder="Enter text here..." rows="10" cols="50"></textarea><br/>
       
-      <input type = "submit" value = "Submit" onclick="submitForm()"> 
+      <input type = "button" value = "Submit" onclick="formSubmit();"> 
    </p> 
 </form> 
 				
