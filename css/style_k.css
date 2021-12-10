@@ -301,7 +301,7 @@ color:white;
     float: right;
     display: block;
   }
-.topnav.responsive {position: relative;}
+.topnav.responsive {position: relative;margin:0;}
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
