@@ -16,7 +16,7 @@ body{
 	height:130px;
 	margin: auto;
 	text-align: center;
-	font-family: Brush Script MT;	
+	font-family: 'Brush Script MT';	
 }
 .banner p{
 	margin: 0px;
@@ -93,7 +93,7 @@ body{
 .weatherwidget-io{
 	width:30%;
   height:30%;
-  margin:ml-auto;
+  margin:auto;
 }
 
 
@@ -141,7 +141,7 @@ body{
 
 .btn {
 	background-color:#FFE87C;
-	font:blue;
+	color:blue;
 }
 
 .card-body{
