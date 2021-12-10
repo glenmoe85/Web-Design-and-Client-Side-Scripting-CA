@@ -47,7 +47,7 @@ background-size:cover;
    overflow:hidden;
    background-color: #2f4f4f  
 }
-
+/*carousel images*/
 .carousel .item {
     position: absolute;
     width: 100%;
@@ -57,15 +57,15 @@ background-size:cover;
 /*map widget*/
 .map{
 	margin-bottom:30px;
+	
 }
 
-
+/*youtube embed responsiveness*/
 .responsive-youtube{
 	width: 100%;
 	height:0;
 	padding-bottom:56.25%;
-	position:relative;
-	
+	position:relative;	
 }
 
 .responsive-youtube iframe{
@@ -73,11 +73,6 @@ background-size:cover;
 	width:100%;
 	height:100%;
 }
-
-
- 
-
-
 
 /*John B kean quote*/
 .quote{
@@ -117,7 +112,6 @@ background-size:cover;
   height: auto;
 }	
 
-
 /*signature design*/
 .john{
 	margin-top:40px;
@@ -139,14 +133,7 @@ background-size:cover;
 	text-align:center;
 }
 
-.googlemap{
-	width:100%
-}
 
-
-.scenery{
-	text-align:center;
-}
 
 .responsive {
   width: 100%;
