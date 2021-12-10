@@ -1,35 +1,20 @@
+/*body design*/
 body {
   background-color:#2f4f4f;
 background-size:cover;
 }
-
-#sc{
-	color:white;
-	font-family:Brush Script MT;
-	font-size:50px; 
-	margin-left:30px;
-}
-.hide {
-  display: none;
-}
-    
-.myDIV:hover + .hide {
-  display: block;
-  color: #f6e27a;
-}
-.rot{
-	text-align:left;
 	
-}
+
 /*Header background*/
 .header{
 	background-color:white;
+	text-align:center;
 	
 }
 
 /*header text*/
 .reveal{
-	vertical-align: middle;
+  vertical-align: middle;
   text-align: center;
   font-size:50px;
   font-family:Goudy Old Style;
@@ -43,8 +28,7 @@ background-size:cover;
 	text-align:center;
 	background-color:white;	
 }
-
-/*collapsable button labels*/
+/*second header*/
 .event{
 	background-color:#008080;
 	color:white;
@@ -52,45 +36,48 @@ background-size:cover;
 	font-family:Goudy Old Style;
 	font-size:20px;
 	vertical-align:center;
+	width:100%;
 }
 
-/*collapsable text box - drops down from button */
-.collapsible {
-	 font-family:Goudy Old Style;
-  background-color: white;
-  color: #2f4f4f;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: center;
-  outline: none;
-  font-size: 20px;
-  border-radius: 4px;
-  margin-top:20px;
-  
-}
-.active, .collapsible:hover {
-  background-color: #ccc;
+/*carousel dimensions*/
+.carousel {
+   position:relative;
+   width:100%;
+   height:100%;
+   overflow:hidden;
+   background-color: #2f4f4f  
 }
 
-/*collapsable content*/
-.content {
-  color: #2f4f4f;
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
-  background-color:white ;
-  border-radius: 4px;
+.carousel .item {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
 }
-
 /*map widget*/
 .map{
 	margin-bottom:30px;
 }
 
-/*carousel dimensions*/
-.carousel { width:740px; height:450px; margin-top:20px; margin-bottom:30px;}
+
+.responsive-youtube{
+	width: 100%;
+	height:0;
+	padding-bottom:56.25%;
+	position:relative;
+	
+}
+
+.responsive-youtube iframe{
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+
+
+ 
+
+
 
 /*John B kean quote*/
 .quote{
@@ -100,6 +87,7 @@ background-size:cover;
    font-size: 170px;
    font-weight: bold;
    margin-top:20px;
+   margin-left:30px;
    background-image: linear-gradient(
 	to right,
 	#462523 0,
@@ -118,43 +106,63 @@ background-size:cover;
 /*quote body*/
 .wonder{
 	margin-top:50px;
-	 font-style: italic;
-	  font-weight:bold;
-	
+	font-style: italic;
+	font-weight:bold;
+	text-align:center;
   
-  margin-right:20px
 }
+
+.button-container{
+ width: 100%;
+  height: auto;
+}	
+
 
 /*signature design*/
 .john{
 	margin-top:40px;
-	font-family: 	Brush Script MT;
+	font-family: Brush Script MT;
 	color:#D4AF37;
 	font-style: italic;
+	text-align:center;
 }
 .wonder:hover {
   color: #D4AF37;
   font-style:normal;
+  
 }
 
 /*map widget dimensions*/
-.map{
-	margin-left:40px;
-	margin-top:0px;
+
+.map-wrapper{
+	max-width:600px;
+	text-align:center;
 }
 
-/*youtube*/
-.video{
-	vertical-align: middle;
-	
-	margin-left:30px;
-	margin-top;30px;
+.googlemap{
+	width:100%
 }
+
+
+.scenery{
+	text-align:center;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+  margin-bottom:20px;
+  margin-top:20px;
+  margin-right:20px;
+  margin-left:20px;
+}
+
+
 
 /* The Modal (background) */
 .modal {
   display: none; 
-  position: fixed; 
+  position:fixed;
   z-index: 1; 
   left: 0;
   top: 0;
@@ -163,6 +171,7 @@ background-size:cover;
   overflow: auto; 
   background-color: rgb(0,0,0); 
   background-color: rgba(0,0,0,0.3); 
+ 
 }
 
 /* Modal Content/Box */
@@ -192,6 +201,7 @@ color:white;
   cursor: pointer;
 } 
 
+
 /*Sponsor Thank you*/
 .sponsors{
 	color:white;
@@ -217,7 +227,6 @@ color:white;
 	margin-bottom:20px;
 	text-align:center;
 	margin-left:40px;
-	
 }
 
 .louis:hover {

@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="css/style_k.css"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+
 </head>
 <body>
 
@@ -17,7 +18,7 @@
 			   <h1 class="reveal">Kerry Welcomes You Naturally</h1>
 			</div>
 			<div class="col-lg-2 logo">
-		       <img src="images/Kerry/waw.jpg" class="logo" width=140 height=70 >
+		       <img src="images/Kerry/waw.jpg" width="140" height="70" >
 			</div>
 		</div>
 			
@@ -29,9 +30,9 @@
 			
 	  
 <div class="row">
-	       <div class="col-lg-7 slides">
+	       <div class="col-lg-7">
 	       
-		<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+		<div id="carousel" class="carousel slide" data-bs-ride="carousel">
     <!-- Carousel indicators -->
     <ol class="carousel-indicators">
         <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
@@ -65,7 +66,8 @@
 	  
 <div class="col-lg-5">
 	<div class="quote">
-	  <h2 class="wonder">One wonders in these places why anyone is left in Dublin, or London, or Paris, when it would be better, one would think, to live in a tent or hut with this magnificent sea and sky, and to breathe this wonderful air, which is like wine in one’s teeth. </h2>
+	  <center><h2 class="wonder">One wonders in these places why anyone is left in Dublin, or London, or Paris, when it would be better, one would think, 
+	  to live in a tent or hut with this magnificent sea and sky, and to breathe this wonderful air, which is like wine in one’s teeth. </h2></center>
 	
 	  <h3 class="john">John B.Keane</h3>
 	</div>
@@ -76,23 +78,39 @@
 
 </br>
  <div class="row">
-	  <div class="col-lg-5 map">
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1253726.0885287502!2d-10.989699121600914!3d52.140073702033746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x484535641a5c62e9%3A0x228e3fa516b4f994!2sKerry%2C%20Co.%20Kerry%2C%20Ireland!5e0!3m2!1sen!2suk!4v1638554314844!5m2!1sen!2suk" width="550" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+	  <div class="col-lg-6 map">
+	  <div class="map-wrapper">
+		<iframe class="googlemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1253726.0885287502!2d-10.989699121600914!3d52.140073702033746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x484535641a5c62e9%3A0x228e3fa516b4f994!2sKerry%2C%20Co.%20Kerry%2C%20Ireland!5e0!3m2!1sen!2suk!4v1638554314844!5m2!1sen!2suk" 
+		width="550" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 	  </div>
+	  </div>
+
+
 	  
-	<div class="col-lg-5 video">
-	    <iframe width="620" height="450" src="https://www.youtube.com/embed/Fk0gTVdZzMg?&autoplay=1" title="YouTube video player" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<div class="col-lg-5">
+	<div class="responsive-youtube">
+	    <iframe width="520" 
+		height="350" 
+		src="https://www.youtube.com/embed/Fk0gTVdZzMg?&autoplay=1" 
+		 
+		frameborder="0" 
+		allow="accelerometer; clipboard-write; 
+		encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
 	</div>
  </div>
+ 
+
+
 
 <div class="row">
-  <div class="col-lg-4">
+  <div class="col">
  <!-- Trigger/Open The Modal -->
-
+      
       <button type="button" button id="myBtn" class="btn  btn-outline-success" data-toggle="modal" data-target="#myModal">
-            <image type="image" src="images/Kerry/smile.jpg"  style="width:330px;height:320px;margin-left:10px;margin-bottom:10px;margin-top:10px;margin-right:10px;" />   
+            <image type="image" src="images/Kerry/smile.jpg" class="responsive" style="width:330px;height:320px;" />   
       </button>
-    
+      
 <!-- The Modal -->
 <div id="myModal" class="modal" role="dialog">
     
@@ -115,11 +133,12 @@
 </div>
   
 
-<div class="col-lg-4">
-
+<div class="col responsive">
+       
       <button type="button" button id="btn1" class="btn  btn-outline-success" data-toggle="modal" data-target="#modal1">
-            <image type="image" src="images/Kerry/sport.jpg"  style="width:330px;height:320px;margin-left:10px;margin-bottom:10px;margin-top:10px;margin-right:10px;" />   
+            <image type="image" src="images/Kerry/sport.jpg" class="responsive" style="width:330px;height:320px;" />   
       </button>
+	  
   <!-- The Modal -->
   <div id="modal1" class="modal"  role="dialog">
     
@@ -136,11 +155,13 @@
 </div> 
 
 
-<div class="col-lg-4">
+<div class="col">
 
 <button type="button" button id="btn2" class="btn  btn-outline-success" data-toggle="modal" data-target="#modal2">
-            <image type="image" src="images/Kerry/shark.jpg"  style="width:330px;height:320px;margin-left:10px;margin-bottom:10px;margin-top:10px;margin-right:10px;" />   
+            <image type="image" src="images/Kerry/shark.jpg" class="responsive" style="width:330px;height:320px;" />   
       </button>
+	  
+	  
 	 <!-- The Modal -->
 <div id="modal2" class="modal">
 
@@ -153,10 +174,10 @@ Oceanworld Aquarium is located in Dingle, County Kerry and is Ireland’s larges
 Experience this enchanting underwater world and learn the wonders of the ocean.</p>
 <p>Book on Phone / Fón: +353 (0)66 91 52 111 or Email Email / R Phost: info@dingle-oceanworld.ie</p>
   
-  
+  </div>
 </div> 
 </div>
-	</div>
+	
 
 
 
@@ -174,7 +195,7 @@ Experience this enchanting underwater world and learn the wonders of the ocean.<
 	
 	<div class="col-lg-2 louis">
 	  <a href="https://louismulcahy.com/" target="_blank">
-		<img src="images/Kerry/louis.jpg" id="louis" height="150px" width="250px" >
+		<img src="images/Kerry/louis.jpg" height="150px" width="250px" >
 	</a>
 	</div>
 </div>
